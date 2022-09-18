@@ -46,7 +46,11 @@ a {
   height: 100%;
   width: 50%;
 }
-
+.home {
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
 .work {
   position: absolute;
   margin-top: 1rem;
@@ -54,15 +58,49 @@ a {
 }
 .studio {
   position: absolute;
-  margin-top: 1rem;
+  margin-top: 0rem;
   margin-left: 110rem;
 }
+/* contact link/right down corner button */
 .contact {
   position: absolute;
   margin-top: 55rem;
   margin-left: 110rem;
 }
+/* for the hover effect */
+.contact .contact-number {
+  opacity: 0;
+  position: absolute;
+  right: 1rem;
+  transition-duration: 0.3s;
+}
+.contact:hover .contact-text {
+  opacity: 0;
+  transition-duration: 2s;
+}
 
+.contact:hover .contact-number {
+  opacity: 1;
+  transition-duration: 2s;
+}
+/* the links for project 1 to infinity */
+.project {
+  position: absolute;
+  z-index: 2000;
+  color: black;
+  margin-top: 2rem;
+  text
+}
+/* the big paragraph for project so there is no overlay */
+.project-paragraph {
+  margin-left: 55vw;
+  padding-top: 15rem;
+
+  font-size: 1.5rem;
+  padding-right: 10rem;
+  text-align: left;
+  z-index: -1;
+}
 /* for slide show pre settings CAREFULL JAVASCRIPT PART NEEDS TO BE ADDED TO ANOTHER SCRIPT NOT IN CSS!! */
 /* <!DOCTYPE html>
 <html>
