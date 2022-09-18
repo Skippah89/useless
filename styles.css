@@ -89,13 +89,11 @@ a {
   z-index: 2000;
   color: black;
   margin-top: 2rem;
-  text
 }
 /* the big paragraph for project so there is no overlay */
 .project-paragraph {
   margin-left: 55vw;
   padding-top: 15rem;
-
   font-size: 1.5rem;
   padding-right: 10rem;
   text-align: left;
