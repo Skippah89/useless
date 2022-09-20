@@ -99,6 +99,29 @@ a {
   text-align: left;
   z-index: -1;
 }
+
+.d-block {
+  margin: 0 auto;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.carousel-caption {
+  text-align: start;
+  padding-left: 768px;
+  padding-top: 2rem;
+}
+p {
+  color: #313130;
+  text-shadow: white 1px 1px 1px;
+}
+.carousel-item {
+}
+h3 {
+  color: #313130;
+}
+
 /* for slide show pre settings CAREFULL JAVASCRIPT PART NEEDS TO BE ADDED TO ANOTHER SCRIPT NOT IN CSS!! */
 /* <!DOCTYPE html>
 <html>
