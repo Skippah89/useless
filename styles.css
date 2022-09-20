@@ -15,7 +15,7 @@
 /* link settings the work-contact-studio words */
 a {
   text-decoration: none;
-  color: black;
+  color: #303130;
   font-size: 2rem;
 }
 /* css for the gif */
@@ -23,7 +23,7 @@ a {
   transition-timing-function: ease-in-out;
   transition: 1s;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   z-index: 1;
   overflow: visible;
@@ -50,22 +50,47 @@ a {
   position: absolute;
   margin-top: 1rem;
   margin-left: 2rem;
+  z-index: 2;
+}
+.home:hover {
+  color: #313130;
 }
 .work {
   position: absolute;
   margin-top: 1rem;
   margin-left: 2rem;
+  z-index: 2;
+}
+.work:hover {
+  color: #313030;
+}
+.work2 {
+  position: absolute;
+  margin-top: 55rem;
+  margin-left: 2rem;
+  z-index: 2;
+}
+.work2:hover {
+  color: #313130;
 }
 .studio {
   position: absolute;
-  margin-top: 0rem;
+  margin-top: 1rem;
   margin-left: 110rem;
+  z-index: 2;
+}
+.studio:hover {
+  color: #313130;
 }
 /* contact link/right down corner button */
 .contact {
   position: absolute;
   margin-top: 55rem;
   margin-left: 110rem;
+  z-index: 2;
+}
+.contact-number {
+  color: #313130;
 }
 /* for the hover effect */
 .contact .contact-number {

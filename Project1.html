@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a class="home" href="./index.html">home</a>
+    <a class="studio" href="./studio.html">studio</a>
+    <a class="work2" href="/work.html">work</a>
+    <a class="contact" href="mailto:info@weuseless.com">
+      <span class="contact-text">contact</span>
+      <span class="contact-number">info@weuseless.com</span></a
+    >
+    <!-- Carousel -->
+    <!-- placing data-bs-ride on carousel will flip images automatically if set on false you have to click -->
+    <div id="demo" class="carousel slide" data-bs-ride="false">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#next"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#next"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#next"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/book.jpg" alt="Los Angeles" class="d-block" />
+          <div class="carousel-caption">
+            <h3>test</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam quo officia doloribus perspiciatis praesentium commodi
+              nesciunt facere odio excepturi eligendi temporibus delectus, quas
+              quos ut maxime. Error cupiditate iusto dolorem! Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Voluptatum, doloremque, ea,
+              aliquid laborum natus adipisci incidunt excepturi illo sequi
+              officia exercitationem eligendi. Debitis adipisci rerum at error
+              voluptatum suscipit illo sequi tempore minus voluptates labore
+              quis illum quam aliquam quibusdam ipsum est atque iusto, harum
+              saepe distinctio? Quos, perspiciatis commodi, omnis tempora
+              voluptates optio quidem amet, culpa ullam dolores labore impedit?
+              Deleniti nihil quidem iste libero, cum aliquam accusantium
+              corporis ratione sit temporibus voluptates reiciendis esse nobis,
+              quod eius adipisci vero voluptatem ducimus dolores ea suscipit
+              reprehenderit dolore quia culpa? Iusto sit in mollitia repudiandae
+              quis id natus rem quos. Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Facilis architecto explicabo vero beatae soluta
+              corrupti aperiam inventore unde rem, incidunt similique ea
+              quibusdam quis fugiat sed aliquam sequi placeat magni pariatur,
+              nisi doloremque voluptate ullam dolore. Dignissimos est recusandae
+              molestiae sed voluptates fugiat, dolores aspernatur exercitationem
+              nisi soluta? Beatae officiis cum tempore officia qui! Quaerat
+              voluptatibus laudantium iure maiores consequuntur eaque! Provident
+              ducimus quos tempora magni iusto nostrum. Nobis officiis veniam
+              quas obcaecati porro placeat possimus eveniet accusamus, totam,
+              cum eum, ea inventore maxime labore consectetur eius veritatis.
+              Ipsum facere laudantium maxime quos, corporis atque modi quasi
+              eligendi inventore architecto! Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Repellat cupiditate officia porro
+              voluptates totam necessitatibus inventore minus consequuntur
+              incidunt ad! Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit. Incidunt doloremque tenetur minus dicta, nemo numquam
+              accusantium eius, aspernatur voluptas a, facere est sunt vero
+              debitis. Ad optio velit nesciunt ducimus ipsum atque aliquam harum
+              doloremque vitae natus quis quibusdam ullam recusandae placeat,
+              adipisci itaque saepe suscipit, inventore ipsa modi laborum!
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/shirt.jpg" alt="Chicago" class="d-block" />
+          <div class="carousel-caption">
+            <h3>test</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam quo officia doloribus perspiciatis praesentium commodi
+              nesciunt facere odio excepturi eligendi temporibus delectus, quas
+              quos ut maxime. Error cupiditate iusto dolorem! Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Voluptatum, doloremque, ea,
+              aliquid laborum natus adipisci incidunt excepturi illo sequi
+              officia exercitationem eligendi. Debitis adipisci rerum at error
+              voluptatum suscipit illo sequi tempore minus voluptates labore
+              quis illum quam aliquam quibusdam ipsum est atque iusto, harum
+              saepe distinctio? Quos, perspiciatis commodi, omnis tempora
+              voluptates optio quidem amet, culpa ullam dolores labore impedit?
+              Deleniti nihil quidem iste libero, cum aliquam accusantium
+              corporis ratione sit temporibus voluptates reiciendis esse nobis,
+              quod eius adipisci vero voluptatem ducimus dolores ea suscipit
+              reprehenderit dolore quia culpa? Iusto sit in mollitia repudiandae
+              quis id natus rem quos. Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Facilis architecto explicabo vero beatae soluta
+              corrupti aperiam inventore unde rem, incidunt similique ea
+              quibusdam quis fugiat sed aliquam sequi placeat magni pariatur,
+              nisi doloremque voluptate ullam dolore. Dignissimos est recusandae
+              molestiae sed voluptates fugiat, dolores aspernatur exercitationem
+              nisi soluta? Beatae officiis cum tempore officia qui! Quaerat
+              voluptatibus laudantium iure maiores consequuntur eaque! Provident
+              ducimus quos tempora magni iusto nostrum. Nobis officiis veniam
+              quas obcaecati porro placeat possimus eveniet accusamus, totam,
+              cum eum, ea inventore maxime labore consectetur eius veritatis.
+              Ipsum facere laudantium maxime quos, corporis atque modi quasi
+              eligendi inventore architecto! Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Repellat cupiditate officia porro
+              voluptates totam necessitatibus inventore minus consequuntur
+              incidunt ad! Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit. Incidunt doloremque tenetur minus dicta, nemo numquam
+              accusantium eius, aspernatur voluptas a, facere est sunt vero
+              debitis. Ad optio velit nesciunt ducimus ipsum atque aliquam harum
+              doloremque vitae natus quis quibusdam ullam recusandae placeat,
+              adipisci itaque saepe suscipit, inventore ipsa modi laborum!
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/tabble.jpg" alt="New York" class="d-block" />
+          <div class="carousel-caption">
+            <h3>test</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laboriosam quo officia doloribus perspiciatis praesentium commodi
+              nesciunt facere odio excepturi eligendi temporibus delectus, quas
+              quos ut maxime. Error cupiditate iusto dolorem! Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Voluptatum, doloremque, ea,
+              aliquid laborum natus adipisci incidunt excepturi illo sequi
+              officia exercitationem eligendi. Debitis adipisci rerum at error
+              voluptatum suscipit illo sequi tempore minus voluptates labore
+              quis illum quam aliquam quibusdam ipsum est atque iusto, harum
+              saepe distinctio? Quos, perspiciatis commodi, omnis tempora
+              voluptates optio quidem amet, culpa ullam dolores labore impedit?
+              Deleniti nihil quidem iste libero, cum aliquam accusantium
+              corporis ratione sit temporibus voluptates reiciendis esse nobis,
+              quod eius adipisci vero voluptatem ducimus dolores ea suscipit
+              reprehenderit dolore quia culpa? Iusto sit in mollitia repudiandae
+              quis id natus rem quos. Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Facilis architecto explicabo vero beatae soluta
+              corrupti aperiam inventore unde rem, incidunt similique ea
+              quibusdam quis fugiat sed aliquam sequi placeat magni pariatur,
+              nisi doloremque voluptate ullam dolore. Dignissimos est recusandae
+              molestiae sed voluptates fugiat, dolores aspernatur exercitationem
+              nisi soluta? Beatae officiis cum tempore officia qui! Quaerat
+              voluptatibus laudantium iure maiores consequuntur eaque! Provident
+              ducimus quos tempora magni iusto nostrum. Nobis officiis veniam
+              quas obcaecati porro placeat possimus eveniet accusamus, totam,
+              cum eum, ea inventore maxime labore consectetur eius veritatis.
+              Ipsum facere laudantium maxime quos, corporis atque modi quasi
+              eligendi inventore architecto! Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Repellat cupiditate officia porro
+              voluptates totam necessitatibus inventore minus consequuntur
+              incidunt ad! Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit. Incidunt doloremque tenetur minus dicta, nemo numquam
+              accusantium eius, aspernatur voluptas a, facere est sunt vero
+              debitis. Ad optio velit nesciunt ducimus ipsum atque aliquam harum
+              doloremque vitae natus quis quibusdam ullam recusandae placeat,
+              adipisci itaque saepe suscipit, inventore ipsa modi laborum!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </body>
+</html>
