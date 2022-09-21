@@ -29,66 +29,28 @@ a {
   overflow: visible;
   background: #fff url("./images/testgif.gif") no-repeat center center;
 }
-.test-paragraph {
-  margin-left: 55vw;
-  padding-top: 4rem;
-  font-size: 1.5rem;
-  padding-right: 10rem;
-
-  text-align: left;
-  position: relative;
-  max-width: 100%;
-  height: auto;
-  z-index: -1;
-}
 .img {
-  position: absolute;
-  height: 100%;
-  width: 50%;
+  object-fit: cover;
 }
-.home {
-  position: absolute;
-  margin-top: 1rem;
-  margin-left: 2rem;
-  z-index: 2;
+.nav-link {
+  z-index: 1000;
 }
 .home:hover {
   color: #313130;
 }
-.work {
-  position: absolute;
-  margin-top: -2rem;
-  margin-left: 2rem;
-  z-index: 2;
-}
+
 .work:hover {
   color: #313030;
 }
-.work2 {
-  position: absolute;
-  margin-top: 55rem;
-  margin-left: 2rem;
-  z-index: 2;
-}
+
 .work2:hover {
   color: #313130;
 }
-.studio {
-  position: absolute;
-  margin-top: -2rem;
-  margin-left: 110rem;
-  z-index: 2;
-}
+
 .studio:hover {
   color: #313130;
 }
-/* contact link/right down corner button */
-.contact {
-  position: absolute;
-  margin-top: 50rem;
-  margin-left: 110rem;
-  z-index: 2;
-}
+
 .contact-number {
   color: #313130;
 }
@@ -108,30 +70,6 @@ a {
   opacity: 1;
   transition-duration: 2s;
 }
-/* the links for project 1 to infinity */
-.project {
-  position: absolute;
-  z-index: 2000;
-  color: black;
-  margin-top: 2rem;
-}
-/* the big paragraph for project so there is no overlay */
-.project-paragraph {
-  margin-left: 55vw;
-  padding-top: 15rem;
-  margin-top: 10rem;
-  font-size: 1.5rem;
-  padding-right: 10rem;
-  text-align: left;
-  z-index: -1;
-}
-
-.d-block {
-  margin: 0 auto;
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-}
 
 .carousel-caption {
   text-align: start;
@@ -145,86 +83,4 @@ p {
 
 h3 {
   color: #313130;
-}
-/* /* dit betekent VANAF DUS met andere woorden zodra ik boven 576px kom laat ie de shirt zien dat is MIN-WIDTH EN MAX WIDTH IS ALS HIJ MAXIMALE WIDTH 576 OF ONDER IS DAN PAKT IE DE SHIRT */
-/* mobile changes */
-@media (max-width: 576px) {
-  .navbar {
-    position: fixed;
-  }
-  .img {
-    width: 100%;
-    height: auto;
-  }
-  .text {
-    text-align: center;
-    padding-top: 35rem;
-    padding-right: 5rem;
-  }
-  .work {
-    visibility: collapse;
-  }
-  .home {
-    visibility: collapse;
-  }
-  .contact {
-    visibility: collapse;
-  }
-  .studio {
-    visibility: collapse;
-  }
-  .test-paragraph {
-    margin-left: 10vw;
-    padding-right: 0rem;
-    font-size: 1.5rem;
-    text-align: center;
-  }
-}
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .navbar {
-    visibility: collapse;
-  }
-}
-.img {
-  width: 100%;
-  height: auto;
-}
-.text {
-  text-align: center;
-  padding-top: 35rem;
-  padding-right: 5rem;
-}
-.test-paragraph {
-  margin-left: 10vw;
-  padding-right: 0rem;
-  font-size: 1.5rem;
-  text-align: center;
-}
-.studio {
-  margin-left: 80%;
-}
-.contact {
-  margin-top: 90%;
-  margin-left: 80%;
-}
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .navbar {
-    visibility: collapse;
-  }
-}
-
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .navbar {
-    visibility: collapse;
-  }
-}
-
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
-  .navbar {
-    visibility: collapse;
-  }
 }
