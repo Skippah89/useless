@@ -18,6 +18,9 @@ a {
   color: #303130;
   font-size: 2rem;
 }
+.text-color {
+  color: #d5dad0;
+}
 /* css for the gif */
 #loader {
   transition-timing-function: ease-in-out;
@@ -35,6 +38,7 @@ a {
 .nav-link {
   z-index: 1000;
 }
+
 .home:hover {
   color: #313130;
 }
@@ -83,4 +87,66 @@ p {
 
 h3 {
   color: #313130;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+.projects ul:hover li {
+  color: #ccc;
+}
+ul li.project1,
+.projects ul li.project1:hover {
+  color: #303130;
+  transition-duration: 0.8s;
+}
+
+li.project1 {
+  transition-duration: 1s;
+}
+
+ul li.project2,
+.projects ul li.project2:hover {
+  color: #303130;
+  transition-duration: 0.8s;
+}
+
+li.project2 {
+  transition-duration: 1s;
+}
+ul li.project3,
+.projects ul li.project3:hover {
+  color: #303130;
+  transition-duration: 0.8s;
+}
+
+li.project3 {
+  transition-duration: 1s;
+}
+
+ul li.project4,
+.projects ul li.project4:hover {
+  color: #303130;
+  transition-duration: 0.8s;
+}
+
+li.project4 {
+  transition-duration: 1s;
+}
+
+ul li.project5,
+.projects ul li.project5:hover {
+  color: #303130;
+  transition-duration: 0.8s;
+}
+
+li.project5 {
+  transition-duration: 1s;
 }
