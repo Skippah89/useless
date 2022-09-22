@@ -1,0 +1,86 @@
+@font-face {
+  font-family: formular-light;
+  src: url(./typographie/Formular-Light.ttf);
+}
+/* entire page settings */
+* {
+  padding: 0;
+
+  margin: 0;
+
+  box-sizing: border-box;
+
+  font-family: formular-light;
+}
+/* link settings the work-contact-studio words */
+a {
+  text-decoration: none;
+  color: #303130;
+  font-size: 2rem;
+}
+/* css for the gif */
+#loader {
+  transition-timing-function: ease-in-out;
+  transition: 1s;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  overflow: visible;
+  background: #fff url("./images/testgif.gif") no-repeat center center;
+}
+.img {
+  object-fit: cover;
+}
+.nav-link {
+  z-index: 1000;
+}
+.home:hover {
+  color: #313130;
+}
+
+.work:hover {
+  color: #313030;
+}
+
+.work2:hover {
+  color: #313130;
+}
+
+.studio:hover {
+  color: #313130;
+}
+
+.contact-number {
+  color: #313130;
+}
+/* for the hover effect */
+.contact .contact-number {
+  opacity: 0;
+  position: absolute;
+  right: 1rem;
+  transition-duration: 0.3s;
+}
+.contact:hover .contact-text {
+  opacity: 0;
+  transition-duration: 2s;
+}
+
+.contact:hover .contact-number {
+  opacity: 1;
+  transition-duration: 2s;
+}
+
+.carousel-caption {
+  text-align: start;
+  padding-left: 768px;
+  padding-top: 2rem;
+}
+p {
+  color: #313130;
+  text-shadow: white 1px 1px 1px;
+}
+
+h3 {
+  color: #313130;
+}
