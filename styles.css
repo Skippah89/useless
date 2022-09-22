@@ -147,3 +147,17 @@ p.project-paragraph a.projectfive:hover {
 a.projectfive {
   transition-duration: 1s;
 }
+@media (max-width: 576px) {
+  .sticky-position-work {
+    position: sticky;
+    top: -3px;
+  }
+  .sticky-position-studio {
+    position: sticky;
+    top: -3px;
+  }
+  .sticky-position-contact {
+    position: sticky;
+    top: 90%;
+  }
+}
