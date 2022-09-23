@@ -15,21 +15,29 @@
   </head>
 
   <body>
-    <div class="position-absolute top-0 start-0 p-3 nav-link">
-      <a class="work" href="./index.html">home</a>
+    <div
+      class="position-absolute top-0 start-0 p-3 nav-link sticky-position-work"
+    >
+      <a class="work" href="./work.html">work</a>
     </div>
-    <div class="position-absolute top-0 end-0 p-3 nav-link">
+
+    <!-- sticky-position is mobile version so nav buttons scroll with the text -->
+
+    <div
+      class="position-absolute top-0 end-0 p-3 nav-link sticky-position-studio"
+    >
       <a class="studio" href="./studio.html">studio</a>
     </div>
-    <div class="position-absolute bottom-0 end-0 p-3 nav-link">
+
+    <div
+      class="position-absolute bottom-0 end-0 p-3 nav-link sticky-position-contact"
+    >
       <a class="contact" href="mailto:info@weuseless.com">
         <span class="contact-text">contact</span>
         <span class="contact-number">info@weuseless.com</span></a
       >
     </div>
-    <div class="position-absolute bottom-0 start-0 p-3 nav-link">
-      <a class="work" href="./work.html">work</a>
-    </div>
+    <!-- if you need to change color of white to something else add it in div class after m-0 -->
     <div class="row align-items-center m-0">
       <div class="col-12 col-md-6 px-0">
         <img
@@ -38,15 +46,22 @@
           alt=""
         />
       </div>
-      <div class="col-12 col-md-6 px-0">
-        <div class="text">
-          <p class="test-paragraph text-center">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Consectetur obcaecati maxime cumque dolorum distinctio quas, earum
-            rerum quia maiores iusto incidunt illum, sapiente, praesentium
-            architecto molestiae at? Assumenda, officiis exercitationem odio
-            explicabo ea tempore cum earum eaque eligendi provident id, libero
-          </p>
+      <!-- col-12 = aantal kolommen voor grid/flexbox "col-md-6" = telling the browser medium and above PX STANDS FOR PADDING X AS -->
+      <div class="col-12 col-md-6 px-5">
+        <!-- justifity-content-center is for actually centering the content not just the text
+        only works on flex so make sure to add a row first -->
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10">
+            <h1 class="">we serve until john gives me a mental breakdown</h1>
+            <p class="test-paragraph text-left lh-base">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur obcaecati maxime cumque dolorum distinctio quas, earum
+              rerum quia maiores iusto incidunt illum, sapiente, praesentium
+              architecto molestiae at? Assumenda, officiis exercitationem odio
+              explicabo ea tempore cum earum eaque eligendi provident id, libero
+              et cumque ducimus, consequuntur enim? Officia iusto dolor qui
+            </p>
+          </div>
         </div>
       </div>
     </div>
