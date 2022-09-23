@@ -15,24 +15,31 @@
     <title>Document</title>
   </head>
   <body>
-        <div class="position-absolute top-0 start-0 p-3 nav-link">
+      <div class="position-absolute top-0 start-0 p-3 nav-link sticky-position">
      <!-- changed color text to umbra with in css made a class text-color -->
       <a class="home text-color" href="./index.html">home</a>
     </div>
-    <div class="position-absolute top-0 end-0 p-3 nav-link">
-      <!-- changed color text to umbra with in css made a class text-color -->
+
+   <div
+      class="position-absolute bottom-0 start-0 p-3 nav-link sticky-position-work">
+      <a class="work text-color" href="./work.html">work</a>
+    </div>
+
+    <!-- sticky-position is mobile version so nav buttons scroll with the text -->
+
+    <div
+      class="position-absolute top-0 end-0 p-3 nav-link sticky-position-studio"
+    >
       <a class="studio text-color" href="./studio.html">studio</a>
     </div>
-    <div class="position-absolute bottom-0 end-0 p-3 nav-link">
-      <!-- changed color text to umbra with in css made a class text-color -->
+
+    <div
+      class="position-absolute bottom-0 end-0 p-3 nav-link sticky-position-contact"
+    >
       <a class="contact text-color" href="mailto:info@weuseless.com">
         <span class="contact-text">contact</span>
         <span class="contact-number">info@weuseless.com</span></a
       >
-    </div>
-    <div class="position-absolute bottom-0 start-0 p-3 nav-link">
-      <!-- changed color text to umbra with in css made a class text-color -->
-      <a class="work text-color" href="./work.html">work</a>
     </div>
     <!-- Carousel -->
     <!-- placing data-bs-ride on carousel will flip images automatically if set on false you have to click -->
@@ -61,7 +68,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active vh-100">
           <img
-            src="./images/190922 useless studio0397-.jpg "
+            src="./images/190922 useless studio0397- kopie.jpg"
             class="w-100 h-100 img position-absolute"
             alt="Los Angeles"
           />

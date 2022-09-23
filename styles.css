@@ -150,13 +150,17 @@ a.projectfive {
 @media (max-width: 570px) {
   .sticky-position-work {
     position: fixed !important;
-    top: -3px;
+    bottom: -3px;
   }
   .sticky-position-studio {
     position: fixed !important;
     top: -3px;
   }
   .sticky-position-contact {
+    position: fixed !important;
+    bottom: 10%;
+  }
+  .sticky-position-home {
     position: fixed !important;
     bottom: 10%;
   }
