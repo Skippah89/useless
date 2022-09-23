@@ -164,5 +164,7 @@ a.projectfive {
     position: sticky;
     top: 95%;
     scroll-behavior: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
   }
 }
