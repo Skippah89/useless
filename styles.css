@@ -33,7 +33,6 @@ a {
   background: #fff url("./images/testgif.gif") no-repeat center center;
 }
 .img {
-  -o-object-fit: cover;
   object-fit: cover;
 }
 .nav-link {
@@ -150,21 +149,15 @@ a.projectfive {
 }
 @media (max-width: 570px) {
   .sticky-position-work {
-    position: -webkit-sticky;
     position: sticky;
     top: -3px;
   }
   .sticky-position-studio {
-    position: -webkit-sticky;
     position: sticky;
     top: -3px;
   }
   .sticky-position-contact {
-    position: -webkit-sticky;
     position: sticky;
-    top: 95%;
-    scroll-behavior: auto;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
+    top: 70%;
   }
 }
