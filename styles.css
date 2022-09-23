@@ -149,15 +149,26 @@ a.projectfive {
 }
 @media (max-width: 570px) {
   .sticky-position-work {
-    position: sticky;
+    position: fixed !important;
     top: -3px;
   }
   .sticky-position-studio {
-    position: sticky;
+    position: fixed !important;
     top: -3px;
   }
   .sticky-position-contact {
-    position: sticky;
-    top: 70%;
+    position: fixed !important;
+    bottom: 10%;
   }
+}
+/* to make a box around the paragraphs */
+.test-paragraph {
+  width: 600px;
+  max-width: 100%;
+  height: 600px;
+  overflow-y: scroll;
+}
+/* to remove the scroll bars left and right */
+.test-paragraph::-webkit-scrollbar {
+  display: none;
 }
