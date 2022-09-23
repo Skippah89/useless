@@ -147,7 +147,7 @@ p.project-paragraph a.projectfive:hover {
 a.projectfive {
   transition-duration: 1s;
 }
-@media (max-width: 576px) {
+@media (max-width: 570px) {
   .sticky-position-work {
     position: sticky;
     top: -3px;
