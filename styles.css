@@ -159,5 +159,6 @@ a.projectfive {
   .sticky-position-contact {
     position: sticky;
     top: 95%;
+    scroll-behavior: smooth;
   }
 }
