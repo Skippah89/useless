@@ -163,7 +163,7 @@ a.projectfive {
   }
   .sticky-position-home {
     position: fixed !important;
-    bottom: 10%;
+    bottom: 90%;
   }
 }
 /* to make a box around the paragraphs */
