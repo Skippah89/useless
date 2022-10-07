@@ -83,15 +83,15 @@ a {
 /* icon instead of arrows on the carousel (left icon) */
 .carousel .carousel-control-prev-icon {
   background-image: url(./images/linewhite.png);
-  height: 3rem;
-  width: 1rem;
+  height: 6rem;
+  width: 6rem;
 }
 /* icon instead of arrows on the carousel (right icon) */
 .carousel .carousel-control-next-icon {
   background-image: url(./images/linewhite.png);
 
-  height: 3rem;
-  width: 1rem;
+  height: 6rem;
+  width: 6rem;
 }
 /* p {
   color: #313130;
