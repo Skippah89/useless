@@ -80,10 +80,23 @@ a {
   padding-left: 768px;
   padding-top: 2rem;
 }
-p {
-  color: #313130;
-  text-shadow: white 1px 1px 1px;
+/* icon instead of arrows on the carousel (left icon) */
+.carousel .carousel-control-prev-icon {
+  background-image: url(./images/linewhite.png);
+  height: 3rem;
+  width: 1rem;
 }
+/* icon instead of arrows on the carousel (right icon) */
+.carousel .carousel-control-next-icon {
+  background-image: url(./images/linewhite.png);
+
+  height: 3rem;
+  width: 1rem;
+}
+/* p {
+  color: #313130;
+  text-shadow: white 0px 0px 0px;
+} */
 
 h3 {
   color: #313130;
