@@ -7,7 +7,7 @@ function loadNow(opacity) {
     loader.style.opacity = opacity;
     window.setTimeout(function () {
       loadNow(opacity - 0.05);
-    }, 200);
+    }, 280);
     // the 200 above is for the timeout function to see the whole we are useless gif
   }
 }

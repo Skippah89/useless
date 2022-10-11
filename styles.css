@@ -21,6 +21,10 @@ a {
 .text-color {
   color: #d5dad0;
 }
+/* work links from apartment amsterdam and coming soon font sizes */
+.fonta {
+  font-size: 1.3rem;
+}
 /* css for the gif */
 #loader {
   transition-timing-function: ease-in-out;
@@ -35,6 +39,7 @@ a {
 .img {
   object-fit: cover;
 }
+
 .nav-link {
   z-index: 1000;
 }
@@ -83,15 +88,17 @@ a {
 /* icon instead of arrows on the carousel (left icon) */
 .carousel .carousel-control-prev-icon {
   background-image: url(./images/linewhite.png);
-  height: 6rem;
-  width: 6rem;
+  height: 3rem;
+  width: 2rem;
+  margin-right: 10rem;
 }
 /* icon instead of arrows on the carousel (right icon) */
 .carousel .carousel-control-next-icon {
   background-image: url(./images/linewhite.png);
 
-  height: 6rem;
-  width: 6rem;
+  height: 3rem;
+  width: 2rem;
+  margin-left: 10rem;
 }
 /* p {
   color: #313130;
@@ -101,7 +108,10 @@ a {
 h3 {
   color: #313130;
 }
-
+/* this is for positioning of the projects in work section */
+.project-paragraph {
+  margin-left: 5rem;
+}
 a,
 a:hover,
 a:focus,
@@ -177,6 +187,25 @@ a.projectfive {
   .sticky-position-home {
     position: fixed !important;
     bottom: 90%;
+  }
+  /* icon instead of arrows on the carousel (left icon) */
+  .carousel .carousel-control-prev-icon {
+    background-image: url(./images/linewhite.png);
+    height: 3rem;
+    width: 2rem;
+    margin-right: 0rem;
+  }
+  /* icon instead of arrows on the carousel (right icon) */
+  .carousel .carousel-control-next-icon {
+    background-image: url(./images/linewhite.png);
+
+    height: 3rem;
+    width: 2rem;
+    margin-left: 0rem;
+  }
+  /* this is for carousel title on mobile */
+  .d-md-block {
+    display: block !important;
   }
 }
 /* to make a box around the paragraphs */
