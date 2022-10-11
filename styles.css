@@ -198,7 +198,6 @@ a.projectfive {
   /* icon instead of arrows on the carousel (right icon) */
   .carousel .carousel-control-next-icon {
     background-image: url(./images/linewhite.png);
-
     height: 3rem;
     width: 2rem;
     margin-left: 0rem;
@@ -210,9 +209,9 @@ a.projectfive {
 }
 /* to make a box around the paragraphs */
 .test-paragraph {
-  width: 600px;
-  max-width: 100%;
-  height: 600px;
+  width: 37.5rem;
+  max-width: 80%;
+  height: 37.5rem;
   overflow-y: scroll;
 }
 /* to remove the scroll bars left and right */
