@@ -177,7 +177,9 @@ p.project-paragraph a.projectfive:hover {
 a.projectfive {
   transition-duration: 1s;
 }
-
+/* ----------------------------------
+mobile phone
+------------------------------------- */
 @media (max-width: 570px) {
   .sticky-position-work {
     position: fixed !important;
@@ -212,6 +214,15 @@ a.projectfive {
   /* this is for carousel title on mobile */
   .d-md-block {
     display: block !important;
+  }
+  /* for mobile version to remove pictures */
+  .img-gone {
+    display: none;
+  }
+  /* for mobile version to adjust text in middle */
+  .mobile-text {
+    padding-left: 4rem;
+    margin-top: 10rem;
   }
 }
 /* to make a box around the paragraphs */
