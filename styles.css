@@ -234,5 +234,5 @@ mobile phone
 }
 /* to remove the scroll bars left and right */
 .test-paragraph::-webkit-scrollbar {
-  display: none;
+  /* display: none; */
 }
