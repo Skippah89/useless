@@ -139,44 +139,41 @@ a.projectone {
   transition-duration: 1s;
 }
 
-a.projecttwo,
-p.project-paragraph a.projecttwo:hover {
-  color: #303130;
-  transition-duration: 0.8s;
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-duration: 1.5s;
 }
 
-a.projecttwo {
-  transition-duration: 1s;
-}
-a.projectthree,
-p.project-paragraph a.projectthree:hover {
-  color: #303130;
-  transition-duration: 0.8s;
-}
-
-a.projectthree {
-  transition-duration: 1s;
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-a.projectfour,
-p.project-paragraph a.projectfour:hover {
-  color: #303130;
-  transition-duration: 0.8s;
+#links {
+  width: 100%;
+  padding-left: 300px;
+}
+#links A {
+  position: relative;
+}
+/* to show pictures left */
+#links A IMG {
+  display: none;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+
+  /* vertical-align: bottom; */
+}
+#links A:hover IMG {
+  display: inline;
 }
 
-a.projectfour {
-  transition-duration: 1s;
-}
-
-a.projectfive,
-p.project-paragraph a.projectfive:hover {
-  color: #303130;
-  transition-duration: 0.8s;
-}
-
-a.projectfive {
-  transition-duration: 1s;
-}
 /* ----------------------------------
 mobile phone
 ------------------------------------- */
