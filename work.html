@@ -53,7 +53,7 @@
         />
       </div>
       <div class="col-12 col-md-6 px-0">
-        <div id="links">
+        <div>
           <p
             class="project-paragraph test-paragraph lh-lg fs-5 px-5 py-5 mobile-text"
           >
@@ -68,36 +68,68 @@
            a.projectfive {
            transition-duration: 1s;
            } -->
-            <a class="projectone fonta" href="./Project1.html"
-              ><img
-                class="fade-in fade-out img vh-100 w-50 img-gone"
-                src="./images/useless-studio-img1.png"
-              />patio apartment </a
+            <a id="loaded" class="projectone fonta" href="./Project1.html"
+              >patio apartment </a
             ><br />
-            <a class="projectone fonta" href="./Project2.html"
-              ><img
-                class="fade-in img vh-100 w-50 img-gone"
-                src="./images/useless-studio-img2.png"
-              />ambassadeur</a
+            <a id="show1" class="projectone fonta" href="./Project2.html"
+              >ambassadeur</a
             ><br />
-            <a class="projectone fonta" href="./Project3.html"
-              ><img
-                class="fade-in img vh-100 w-50 img-gone"
-                src="./images/useless-studio-img3.png"
-              />garden studio</a
+            <a id="show2" class="projectone fonta" href="./Project3.html"
+              >garden studio</a
             ><br />
-            <a class="projectone fonta" href="./Project1.html"
-              ><img
-                class="fade-in img vh-100 w-50 img-gone"
-                src="./images/useless-studio-img4.png"
-              />houseboat</a
+            <a class="projectone fonta" href="./Project1.html">houseboat</a
             ><br />
             <a class="projectone fonta" href="#">headoffice LW</a><br />
             <a class="projectone fonta" href="#">coming soon</a><br />
           </p>
         </div>
+        <!-- first image of the project -->
+        <div id="links">
+          <img
+            id="load"
+            class="fade-in load img vh-100 w-50 img-gone"
+            src="./images/useless-studio-img1.png"
+          />
+          <img
+            id="hover1"
+            class="fade-in img vh-100 w-50 img-gone"
+            src="./images/useless-studio-img2.png"
+          />
+          <img
+            id="hover2"
+            class="fade-in img vh-100 w-50 img-gone"
+            src="./images/useless-studio-img3.png"
+          />
+        </div>
       </div>
     </div>
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#show1").on("mouseenter", function () {
+          $("#hover2").hide();
+          $("#load").hide();
+          $("#hover1").show(1);
+        });
+
+        $("#show2").on("mouseenter", function () {
+          $("#hover1").hide();
+          $("#load").hide();
+          $("#hover2").show(1);
+        });
+
+        $("#loaded").on("mouseenter", function () {
+          $("#hover1").hide();
+          $("#hover2").hide();
+          $("#load").show(1);
+        });
+      });
+    </script>
 
     <script src="index.js"></script>
   </body>

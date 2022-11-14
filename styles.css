@@ -140,38 +140,15 @@ a.projectone {
 }
 
 .fade-in {
-  opacity: 1;
-  animation-name: fadeInOpacity;
-  animation-duration: 1.5s;
+  transition-duration: 1s;
 }
 
-@keyframes fadeInOpacity {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-#links {
-  width: 100%;
-  padding-left: 300px;
-}
-#links A {
-  position: relative;
-}
 /* to show pictures left */
-#links A IMG {
+#links IMG {
   display: none;
   position: fixed;
   left: 0px;
   bottom: 0px;
-
-  /* vertical-align: bottom; */
-}
-#links A:hover IMG {
-  display: inline;
 }
 
 /* ----------------------------------
@@ -231,5 +208,5 @@ mobile phone
 }
 /* to remove the scroll bars left and right */
 .test-paragraph::-webkit-scrollbar {
-  /* display: none; */
+  display: none;
 }
