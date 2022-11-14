@@ -180,15 +180,17 @@ mobile phone
   .carousel .carousel-control-prev-icon {
     background-image: url(./images/linewhite.png);
     height: 4.5rem;
-    width: 2rem;
-    margin-right: 0rem;
+    width: 1px;
+    margin-left: -10rem;
+    background: #303130;
   }
   /* icon instead of arrows on the carousel (right icon) */
   .carousel .carousel-control-next-icon {
     background-image: url(./images/linewhite.png);
     height: 4.5rem;
-    width: 2rem;
-    margin-left: 0rem;
+    width: 1px;
+    margin-left: 10rem;
+    background: #353635;
   }
   /* this is for carousel title on mobile */
   .d-md-block {
