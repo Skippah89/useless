@@ -15,13 +15,16 @@
     <title>Project Amsterdam</title>
   </head>
   <body>
-      <div class="position-absolute top-0 start-0 px-3 py-2 nav-link sticky-position-home">
-     <!-- changed color text to umbra with in css made a class text-color -->
+    <div
+      class="position-absolute top-0 start-0 px-3 py-2 nav-link sticky-position-home"
+    >
+      <!-- changed color text to umbra with in css made a class text-color -->
       <a class="home text-color fs-4" href="./index.html">home</a>
     </div>
 
-   <div
-      class="position-absolute bottom-0 start-0 px-3 py-2 nav-link sticky-position-work">
+    <div
+      class="position-absolute bottom-0 start-0 px-3 py-2 nav-link sticky-position-work"
+    >
       <a class="work text-color fs-4" href="./work.html">work</a>
     </div>
 
@@ -67,59 +70,75 @@
       <!-- The slideshow/carousel -->
       <div class="carousel-inner">
         <div class="carousel-item active vh-100">
-          <img
-            src="./images/190922 useless studio0397- kopie.jpg"
-            class="w-100 h-100 img position-absolute"
-            alt="Project Amsterdam"
-          />
-            <!-- w-100 gives the text more to the right with align-items -->
-          <div class="row position-absolute h-100 w-100 align-items-center ">
-            <div class="col-6"></div>
-            <div class="col-6 mt-auto">
-              <!-- changed color text to umbra with in css made a class text-color -->
-               <!-- test-paragraph is to get the box around text to keep it still however you need more text to keep it in the middle no way around this py-5 is to push text more down -->
-              <!-- <p class="lh-base text-color test-paragraph py-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam quo officia doloribus perspiciatis praesentium
-                commodi nesciunt facere odio excepturi eligendi temporibus
-              </p> --> 
-            </div>  
-          </div>
-        </div>
-        <!-- this carousel-caption is for title above the 2 indicators -->
- <div class="carousel-caption d-none d-md-block text-center px-0">
-    <h4>John and pieter why this is your title by the way :(</h4>
-    <p>can add extra text here if needed</p>
-  </div>
-        <div class="carousel-item vh-100">
+          <!--float start = left float end = right  -->
           <img
             src="./images/190922 useless studio0422-.jpg "
-            class="w-100 h-100 img position-absolute"
+            class="w-50 h-100 img float-start"
             alt="Project Amsterdam"
           />
+          <img
+            src="./images/190922 useless studio0397- kopie.jpg"
+            class="w-50 h-100 img float-end"
+            alt="Project Amsterdam"
+          />
+
           <!-- w-100 gives the text more to the right with align-items -->
           <div class="row position-absolute h-100 w-100 align-items-center">
             <div class="col-6"></div>
             <div class="col-6 mt-auto">
-          <!-- changed color text to umbra with in css made a class text-color -->
-          <!-- test-paragraph is to get the box around text to keep it still however you need more text to keep it in the middle no way around this py-5 is to push text down with padding -->
-              <p class=" lh-base text-color test-paragraph py-5">
-                <br>
-                
-title <br>
-location <br>
-client <br>
-size <br>
-function <br>
-date <br>
-team <br>
-photography <br>
-            </p>
+              <!-- changed color text to umbra with in css made a class text-color -->
+              <!-- test-paragraph is to get the box around text to keep it still however you need more text to keep it in the middle no way around this py-5 is to push text more down -->
+              <!-- <p class="lh-base text-color test-paragraph py-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laboriosam quo officia doloribus perspiciatis praesentium
+                commodi nesciunt facere odio excepturi eligendi temporibus
+              </p> -->
             </div>
           </div>
         </div>
+        <!-- this carousel-caption is for title above the 2 indicators -->
+        <div class="carousel-caption d-none d-md-block text-center px-0">
+          <h4>patio apartment</h4>
+          <!-- can add extra text by using paragrap <p> -->
+          <!-- <p>can add extra text here if needed</p> -->
+        </div>
+        <div class="carousel-item vh-100">
+          <img
+            src="./images/johns plattegrond.png"
+            class="w-50 h-100 img position-absolute"
+            alt="Project Amsterdam"
+          />
+          <div
+            class="carousel-caption d-none d-md-block text-center px-0 text-color-black"
+          >
+            <h4>patio apartment</h4>
+            <!-- can add extra text by using paragrap <p> -->
+            <!-- <p>can add extra text here if needed</p> -->
+          </div>
+          <!-- w-100 gives the text more to the right with align-items -->
+          <div class="row position-absolute h-100 w-100 align-items-center">
+            <div class="col-6"></div>
+            <!-- <div class="col-6 mt-auto"> -->
+            <!-- changed color text to umbra with in css made a class text-color -->
+            <!-- test-paragraph is to get the box around text to keep it still however you need more text to keep it in the middle no way around this py-5 is to push text down with padding -->
+            <p
+              class="lh-base text-color-black text-left test-paragraph project-paragraph lh-lg fs-4 py-5 px-5"
+            >
+              <br />
+
+              title / patio apartment <br />
+              location / amsterdam <br />
+              client / private <br />
+              date / 2021 <br />
+              size / 83m2 <br />
+              illustrations / useless studio <br />
+              photography / lennert antonissen <br />
+            </p>
+          </div>
+        </div>
+      </div>
       <!-- Left and right controls/icons -->
-    
+
       <button
         class="carousel-control-prev"
         type="button"
@@ -128,7 +147,7 @@ photography <br>
       >
         <span class="carousel-control-prev-icon"></span>
       </button>
-  
+
       <button
         class="carousel-control-next"
         type="button"
@@ -138,5 +157,5 @@ photography <br>
         <span class="carousel-control-next-icon"></span>
       </button>
     </div>
-</body>
+  </body>
 </html>
