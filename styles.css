@@ -20,13 +20,14 @@ a {
 }
 .text-color {
   color: #d5dad0;
+  text-shadow: #222 1px 1px 1px;
 }
 .text-color-black {
   color: #222;
 }
 /* work links from apartment amsterdam and coming soon font sizes */
 .fonta {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 /* css for the gif */
 #loader {
@@ -67,7 +68,7 @@ a {
   color: #313130;
 }
 /* for the hover effect */
-.contact .contact-number {
+/* .contact .contact-number {
   opacity: 0;
   position: absolute;
   right: 1rem;
@@ -81,7 +82,7 @@ a {
 .contact:hover .contact-number {
   opacity: 1;
   transition-duration: 2s;
-}
+} */
 /* ---------------------------------------
   carousel
   ---------------------------------------- */
@@ -104,13 +105,14 @@ a {
   height: 4.5rem;
   width: 1px;
   margin-left: 10rem;
-  background: #353635;
+  background: #303130;
 }
 /* bottom indicators changing height and width */
 .carousel-indicators [data-bs-target] {
-  width: 3rem;
-  height: 0.1rem;
-  background-color: grey;
+  width: 4rem;
+  height: 0.05rem;
+  margin-right: 1rem;
+  background-color: #222;
 }
 /* p {
   color: #313130;
@@ -132,7 +134,7 @@ a:active {
   color: inherit;
 }
 p.project-paragraph:hover a {
-  color: #ccc;
+  color: #d5dad0;
 }
 a.projectone,
 p.project-paragraph a.projectone:hover {
@@ -216,4 +218,53 @@ mobile phone
 /* to remove the scroll bars left and right */
 .test-paragraph::-webkit-scrollbar {
   display: none;
+}
+
+/* to make a box around the credentials */
+.middle-paragraph {
+  width: 37.5rem;
+  max-width: 100%;
+  height: 42rem;
+  overflow-y: scroll;
+  margin-left: 2rem;
+}
+/* to remove the scroll bars left and right */
+.middle-paragraph::-webkit-scrollbar {
+  display: none;
+}
+
+/* links to articles in credentials */
+a.article {
+  font-size: 1rem;
+}
+
+a.article:hover {
+  color: #d5dad0;
+}
+
+/* link to mail */
+a.email-link {
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+a.email-link:hover {
+  color: #d5dad0;
+}
+
+/* adjust position for the text in center */
+.contact-position {
+  margin-top: -35rem;
+  margin-left: 60rem;
+}
+
+/* backgroundimage for contact page */
+.bg {
+  /* The image used */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0;
 }

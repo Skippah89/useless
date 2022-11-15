@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="./favicon/3d logo.jpg" />
-    <title>u se less</title>
+    <title>studio</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,45 +32,153 @@
     <div
       class="position-absolute bottom-0 end-0 px-3 py-2 nav-link sticky-position-contact"
     >
-      <a class="contact fs-4" href="./contact.html">
-        <span class="contact-text">contact</span>
-        <span class="contact-number">info@weuseless.com</span></a
-      >
+      <a class="contact fs-4" href="./contact.html">contact</a>
     </div>
     <div
       class="position-absolute bottom-0 start-0 px-3 py-2 nav-link sticky-position-work"
     >
       <a class="work fs-4" href="./work.html">work</a>
     </div>
-    <!-- if you need to change color of white to something else add it in div class after m-0 -->
-    <div class="row align-items-center m-0">
-      <div class="col-12 col-md-6 px-0">
-        <img
-          class="img vh-100 w-100 img-gone"
-          src="./images/190922 useless studio0364.jpg"
-          alt=""
-        />
+    <!-- Carousel -->
+    <!-- placing data-bs-ride on carousel will flip images automatically if set on false you have to click -->
+    <div id="demo" class="carousel slide" data-bs-ride="false">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="2"
+        ></button>
+        <!-- here you make the next slide for carousel if you need 4 or more -->
       </div>
-      <!-- col-12 = aantal kolommen voor grid/flexbox "col-md-6" = telling the browser medium and above PX STANDS FOR PADDING X AS -->
-      <div class="col-12 col-md-6 px-5">
-        <!-- justifity-content-center is for actually centering the content not just the text
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active vh-100">
+          <div class="row align-items-center m-0">
+            <div class="col-12 col-md-6 px-0">
+              <img
+                class="img vh-100 w-100 img-gone"
+                src="./images/190922 useless studio0364.jpg"
+                alt=""
+              />
+            </div>
+            <!-- col-12 = aantal kolommen voor grid/flexbox "col-md-6" = telling the browser medium and above PX STANDS FOR PADDING X AS -->
+            <div class="col-12 col-md-6 px-5">
+              <!-- justifity-content-center is for actually centering the content not just the text
         only works on flex so make sure to add a row first -->
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-10">
-            <!-- fs6 is text size van go to fs 1-5 -->
-            <h1 class="fs-4 text-left px-5">useless studio</h1>
-            <p class="text-left lh-lg fs-6 py-5 px-5 mobile-text">
-              We are the only design studio that uses less to achieve more. By
-              stripping brands down to their essential message On relevant
-              physical locations. For a generation of conscious consumers Who
-              long for a world with meaningful products In an era of
-              necessary/inevitable change
-            </p>
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-10">
+                  <!-- fs6 is text size van go to fs 1-5 -->
+                  <h1 class="fs-6 text-left px-5">useless studio</h1>
+                  <p class="text-left lh-lg fs-6 py-5 px-5 mobile-text">
+                    We are the only design studio that uses less to achieve
+                    more. By stripping brands down to their essential message On
+                    relevant physical locations. For a generation of conscious
+                    consumers Who long for a world with meaningful products In
+                    an era of necessary/inevitable change
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item vh-100">
+          <div class="row align-items-center m-0">
+            <div class="col-12 col-md-6 px-0">
+              <img
+                class="img vh-100 w-100 img-gone"
+                src="./images/190922 useless studio0263--bewerkt.jpg"
+                alt=""
+              />
+            </div>
+            <!-- col-12 = aantal kolommen voor grid/flexbox "col-md-6" = telling the browser medium and above PX STANDS FOR PADDING X AS -->
+            <div class="col-12 col-md-6 px-5">
+              <!-- justifity-content-center is for actually centering the content not just the text
+        only works on flex so make sure to add a row first -->
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-10">
+                  <!-- fs6 is text size van go to fs 1-5 -->
+                  <h1 class="fs-6 text-left px-0">team</h1>
+                  <p
+                    class="test-paragraph text-left lh-lg fs-6 px-0 py-5 mobile-text"
+                  >
+                    p vd wel <br />
+                    founding partner <br />
+                    retail & interior design <br />
+                    ma design (piet zwart institute) <br />
+                    https://www.linkedin.com/in/pietervanderwel/ <br />
+                    1983 <br />
+                    <br />
+                    j w bosch <br />
+                    founding partner <br />
+                    architect <br />
+                    march (avb, amsterdam) <br />
+                    https://www.linkedin.com/in/johnwilliambosch/ <br />
+                    1983 <br />
+                    <br />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item vh-100">
+          <div class="row position-absolute h-100 w-100 align-items-center">
+            <div class="col-4 text-center"></div>
+            <div class="col-4 text-center">
+              <!-- changed color text to umbra with in css made a class text-color -->
+              <!-- test-paragraph is to get the box around text to keep it still however you need more text to keep it in the middle no way around this py-5 is to push text more down -->
+              <h1 class="text-center ms-5 lh-lg fs-6">credentials</h1>
+              <br />
+              <p class="middle-paragraph text-center lh-lg fs-6">
+                retail <br />
+                <a class="article" href="#">woei</a> <br />
+                <a class="article" href="#">starbucks</a> <br />
+                <a class="article" href="#">bontontoys</a> <br />
+                <br />
+                architecture <br />
+                <a class="article" href="#">ambassadeur</a> <br />
+                <a class="article" href="#">firestation oman</a> <br />
+                <br />
+                interior <br />
+                more will follow <br />
+                <br />
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <!-- Left and right controls/icons -->
 
-    <script src="index.js"></script>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
   </body>
 </html>
