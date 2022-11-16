@@ -222,11 +222,7 @@ mobile phone
 
 /* to make a box around the credentials */
 .middle-paragraph {
-  width: 37.5rem;
-  max-width: 100%;
-  height: 42rem;
   overflow-y: scroll;
-  margin-left: 2rem;
 }
 /* to remove the scroll bars left and right */
 .middle-paragraph::-webkit-scrollbar {
