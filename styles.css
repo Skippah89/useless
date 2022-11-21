@@ -202,9 +202,14 @@ mobile phone
     display: none;
   }
   /* for mobile version to adjust text in middle */
+
+  .mobile-text-title {
+    padding-left: 4rem;
+    margin-top: 15rem;
+  }
   .mobile-text {
     padding-left: 4rem;
-    margin-top: 10rem;
+    margin-top: 0rem;
   }
 }
 /* to make a box around the paragraphs */
