@@ -255,13 +255,20 @@ mobile phone
     display: none;
   }
   /* for mobile version to adjust text in middle */
-
   .mobile-text-title {
     padding-left: 4rem;
     margin-top: 10rem;
   }
+  /* overall mobile text */
   .mobile-text {
     padding-left: 4rem;
     margin-top: 0rem;
+    text-align: center;
+  }
+  /* for the project texts in work page */
+  .mobile-text-projects {
+    margin-top: 10rem;
+    text-align: center;
+    margin-left: 2rem;
   }
 }
