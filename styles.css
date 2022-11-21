@@ -261,7 +261,7 @@ mobile phone
   }
   /* overall mobile text */
   .mobile-text {
-    padding-left: 4rem;
+    padding-left: 0rem;
     margin-top: 0rem;
     text-align: center;
   }
@@ -270,5 +270,19 @@ mobile phone
     margin-top: 10rem;
     text-align: center;
     margin-left: 2rem;
+  }
+  .mobile-text-work {
+    margin-top: -5rem;
+    text-align: center;
+  }
+  .mobile-projects-plattegrond {
+    margin-top: 2rem;
+  }
+  .test-paragraph {
+    max-width: 100%;
+  }
+  .mobile-text-team {
+    text-align: center;
+    padding-left: 3rem;
   }
 }
