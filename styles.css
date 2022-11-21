@@ -264,3 +264,8 @@ a.email-link:hover {
   background-size: cover;
   margin-left: 0;
 }
+
+.patio {
+  margin-left: -11rem;
+  margin-top: 11rem;
+}
