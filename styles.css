@@ -19,8 +19,7 @@ a {
   font-size: 2rem;
 }
 .text-color {
-  color: #d5dad0;
-  text-shadow: #222 1px 1px 1px;
+  color: #303130;
 }
 .text-color-black {
   color: #222;
@@ -266,6 +265,6 @@ a.email-link:hover {
 }
 
 .page2-project {
-  margin-left: 11rem;
+  margin-left: 2rem;
   margin-top: 10rem;
 }
