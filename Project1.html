@@ -19,13 +19,13 @@
       class="position-absolute top-0 start-0 px-3 py-2 nav-link sticky-position-home"
     >
       <!-- changed color text to umbra with in css made a class text-color -->
-      <a class="home text-color fs-4" href="./index.html">home</a>
+      <a class="text-color home fs-4" href="./index.html">home</a>
     </div>
 
     <div
       class="position-absolute bottom-0 start-0 px-3 py-2 nav-link sticky-position-work"
     >
-      <a class="work text-color fs-4" href="./work.html">work</a>
+      <a class="text-color work fs-4" href="./work.html">work</a>
     </div>
 
     <!-- sticky-position is mobile version so nav buttons scroll with the text -->
@@ -33,13 +33,13 @@
     <div
       class="position-absolute top-0 end-0 px-3 py-2 nav-link sticky-position-studio"
     >
-      <a class="studio text-color fs-4" href="./studio.html">studio</a>
+      <a class="text-color studio fs-4" href="./studio.html">studio</a>
     </div>
 
     <div
       class="position-absolute bottom-0 end-0 px-3 py-2 nav-link sticky-position-contact"
     >
-      <a class="contact text-color fs-4" href="./contact.html">contact</a>
+      <a class="text-color contact fs-4" href="./contact.html">contact</a>
     </div>
     <!-- Carousel -->
     <!-- placing data-bs-ride on carousel will flip images automatically if set on false you have to click -->
@@ -100,38 +100,47 @@
           <!-- <p>can add extra text here if needed</p> -->
         </div>
         <div class="carousel-item vh-100">
-          <img
-            src="./images/johns plattegrond.png"
-            class="w-50 h-100 img position-absolute"
-            alt="Project Amsterdam"
-          />
-          <div
-            class="carousel-caption d-none d-md-block text-center px-0 text-color-black"
-          >
-            <h4>patio apartment</h4>
+          <div class="row align-items-center m-0">
+            <div class="col-12 col-md-6 px-0">
+              <img
+                src="./images/johns plattegrond.png"
+                class="w-100 h-100 img float-start"
+                alt="Project Amsterdam"
+              />
+            </div>
+
             <!-- can add extra text by using paragrap <p> -->
             <!-- <p>can add extra text here if needed</p> -->
-          </div>
-          <!-- w-100 gives the text more to the right with align-items -->
-          <div class="row position-absolute h-100 w-100 align-items-center">
-            <div class="col-6"></div>
-            <!-- <div class="col-6 mt-auto"> -->
-            <!-- changed color text to umbra with in css made a class text-color -->
-            <!-- test-paragraph is to get the box around text to keep it still however you need more text to keep it in the middle no way around this py-5 is to push text down with padding -->
-            <p
-              class="lh-base text-color-black text-left test-paragraph project-paragraph lh-lg fs-6 py-5 px-5"
-            >
-              <br />
 
-              title / patio apartment <br />
-              location / amsterdam <br />
-              client / private <br />
-              date / 2021 <br />
-              size / 83m2 <br />
-              illustrations / useless studio <br />
-              photography / lennert antonissen <br />
-            </p>
+            <div class="col-12 col-md-6 px-5">
+              <!-- w-100 gives the text more to the right with align-items -->
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-10">
+                  <!-- <div class="col-6 mt-auto"> -->
+                  <!-- changed color text to umbra with in css made a class text-color -->
+                  <!-- test-paragraph is to get the box around text to keep it still however you need more text to keep it in the middle no way around this py-5 is to push text down with padding -->
+                  <p
+                    class="lh-base text-left test-paragraph lh-lg fs-6 py-5 px-0"
+                  >
+                    <br />
+
+                    title / patio apartment <br />
+                    location / amsterdam <br />
+                    client / private <br />
+                    date / 2021 <br />
+                    size / 83m2 <br />
+                    illustrations / useless studio <br />
+                    photography / lennert antonissen <br />
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
+        <div
+          class="carousel-caption d-none d-md-block text-center px-0 text-color"
+        >
+          <h4>patio apartment</h4>
         </div>
       </div>
       <!-- Left and right controls/icons -->
